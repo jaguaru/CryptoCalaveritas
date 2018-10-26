@@ -35,7 +35,7 @@
     var ZCASH_ICON = new Image();
     ZCASH_ICON.src = "static/images/icons_skull/zcash_icon.png";
     var EOS_ICON = new image();
-    EOS_ICON.src = "static/images/icons_skull/eos_icon.png"
+    EOS_ICON.src = "static/images/icons_skull/eos_icon.png";
 
     function canvasCalaveritas() {
 
