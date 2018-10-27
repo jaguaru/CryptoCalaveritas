@@ -36,6 +36,8 @@
     ZCASH_ICON.src = "static/images/icons_skull/zcash_icon.png";
     var EOS_ICON = new image();
     EOS_ICON.src = "static/images/icons_skull/eos_icon.png";
+     var DOGECOIN_ICON = new image();
+    DOGECOIN_ICON.src = "static/images/icons_skull/doge_icon.png";
 
     function canvasCalaveritas() {
 
@@ -122,7 +124,7 @@
       context.fillRect(180, 320, 20, 20);
       context.fillRect(220, 320, 20, 20);
 
-      var crypto_icons = [BITCOIN_ICON, ETHEREUM_ICON, MONERO_ICON, LITECOIN_ICON, ETC_ICON, BAT_ICON, DASH_ICON, DGB_ICON, DOGE_ICON, KOMODO_ICON, NEM_ICON, NEO_ICON, OMG_ICON, SIACOIN_ICON, STELLAR_ICON, STEEM_ICON, VERGE_ICON, ZCASH_ICON, EOS_ICON];
+      var crypto_icons = [BITCOIN_ICON, ETHEREUM_ICON, MONERO_ICON, LITECOIN_ICON, ETC_ICON, BAT_ICON, DASH_ICON, DGB_ICON, DOGE_ICON, KOMODO_ICON, NEM_ICON, NEO_ICON, OMG_ICON, SIACOIN_ICON, STELLAR_ICON, STEEM_ICON, VERGE_ICON, ZCASH_ICON, EOS_ICON, DOGECOIN_ICON];
       var icons_rand = Math.floor(Math.random()*crypto_icons.length);
       var cryptoRandomIcons;
 
